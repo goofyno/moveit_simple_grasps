@@ -192,7 +192,7 @@ namespace moveit_simple_grasps
 int main(int argc, char *argv[])
 {
   ros::init(argc, argv, "grasp_generator_server");
-  moveit_simple_grasps::GraspGeneratorServer grasp_generator_server("generate", "right");
+  moveit_simple_grasps::GraspGeneratorServer grasp_generator_server("generate", "gripper");
   ros::spin();
   return 0;
 }
